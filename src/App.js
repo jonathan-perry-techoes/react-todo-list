@@ -1,5 +1,7 @@
 import React from "react";
 import "./App.css";
+// Importing components
+import Form from "./components/Form";
 
 function App() {
   return (
@@ -7,6 +9,7 @@ function App() {
       <header>
         <h1>To Do List</h1>
       </header>
+      <Form />
     </div>
   );
 }
